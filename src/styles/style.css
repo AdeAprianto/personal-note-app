@@ -4,7 +4,89 @@
   padding: 0;
 }
 
-.heading {
-  color: blue;
+body {
+  font-family: "Exo 2", sans-serif;
+  background-color: #393E46;
 }
+
+#header-note-add {
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
+  color: #EEEEEE;
+}
+
+#header-note-list {
+  margin-left: 2rem;
+  margin-right: 1.6rem;
+  color: #EEEEEE;
+}
+
+.add-note-container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  position: relative;
+  left: 300px;
+  margin: 1.6rem;
+}
+
+#note-text, #note-title, #note-add {
+  margin: .5rem;
+  padding: .7rem;
+  border-radius: 15px;
+  background-color:#222831;
+  color: #EEEEEE;
+}
+
+#note-add {
+  color: #EEEEEE;
+}
+
+.note-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.6rem;
+  height: auto;
+  justify-content: space-between;
+}
+
+.note-item {
+  display: flex;
+  flex-direction: column;
+  border: #00ADB5 3px solid;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  width: 300px;
+  border-radius: 25px;
+  color: #EEEEEE;
+  margin-bottom: .6rem;
+}
+
+.note-item-list {
+  margin-top: .5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.note-item-list .body {
+  color: #F5F7F8;
+}
+
+#button-delete {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  background-color: #222831;
+  color: #EEEEEE;
+  border-radius: 20px;
+  padding: .2rem;
+}
+
+.list-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  color: #EEEEEE;
+}
+
 
